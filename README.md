@@ -1,1 +1,1 @@
-# web-store
+# WebStore

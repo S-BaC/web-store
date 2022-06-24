@@ -1,0 +1,100 @@
+{
+    
+    "title":"Clothing",
+    "locations":{
+        "Yangon":"3000",
+        "Mandalay":"5000",
+        "Naypyitaw":"6000",
+        "International":"10000"
+    },
+    "discounts":{
+        "rate":"0.15",
+        "days":[4,5,0]
+    },
+    "products":[
+        
+        {
+            "category":"male",
+            "items":[
+                {
+                    "pname":"Hoodies",
+                    "pcode" : "M0234",
+                    "img":"images/male/shirt1.jpg",
+                    "price" : 6000
+                },
+                {
+                    "pname":"Manchester",
+                    "pcode" : "M0034",
+                    "img":"images/male/shirt2.jpg",
+                    "price" : 4000
+                },
+                {
+                    "pname":"Black Shirt",
+                    "pcode" : "M0299",
+                    "img":"images/male/shirt3.jpg",
+                    "price" : 5000
+                },
+                {
+                    "pname":"Blue Shirt",
+                    "pcode" : "M0534",
+                    "img":"images/male/shirt4.jpg",
+                    "price" : 2990
+                },
+                {
+                    "pname":"White Shirt",
+                    "pcode" : "M0204",
+                    "img":"images/male/shirt5.jpg",
+                    "price" : 3000
+                },
+                {
+                    "pname":"Bayern Shirt",
+                    "pcode" : "M0134",
+                    "img":"images/male/shirt6.jpg",
+                    "price" : 4500
+                }
+            ]
+        },
+            {
+            "category":"female",
+            "items":[
+                {
+                    "pname":"White Adidas",
+                    "pcode" : "W0234",
+                    "img":"images/female/shirt1.jpg",
+                    "price" : 4500
+                },
+                {
+                    "pname":"Pupple Adidas",
+                    "pcode" : "W0034",
+                    "img":"images/female/shirt2.jpg",
+                    "price" : 4000
+                },
+                {
+                    "pname":"Midnight Adidas",
+                    "pcode" : "W0299",
+                    "img":"images/female/shirt3.jpg",
+                    "price" : 3990
+                },
+                {
+                    "pname":"Silver Shirt",
+                    "pcode" : "W0534",
+                    "img":"images/female/shirt4.jpg",
+                    "price" : 1500
+                },
+                {
+                    "pname":"Black Shirt",
+                    "pcode" : "W0204",
+                    "img":"images/female/shirt5.jpg",
+                    "price" : 6500
+                },
+                {
+                    "pname":"Skyblue Shirt",
+                    "pcode" : "W0134",
+                    "img":"images/female/shirt6.jpg",
+                    "price" : 8500
+                }
+            ]
+        }
+
+    ]
+}

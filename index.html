@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Web Store</title>
+    <link rel="shortcut icon" href="logo.jpg" type="image/x -icon" />
+    <script src="jquery3.6.0.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="maleu">
+        <span><img src="images/logo.jpg" class="logo" /></span>
+        <span>HOME</span>
+        <span>PRODUCTS</span>
+        <span>ABOUT US</span>
+        <span>CONTACT</span>
+      </div>
+    </div>
+    <div class="mainbody">
+      <div class="products"></div>
+
+      <div class="cart">
+        <div class="title">Your Cart</div>
+        <div class="calculateItem"></div>
+        <div class="title" id="discounttitle"></div>
+        <div class="amount" id="discountprice"></div>
+        <div class="title">Delivery</div>
+        <form action="">
+          <input
+          type="text"
+          class="userinfo"
+          placeholder="Your Name"
+          id="yourname"
+        />
+        <input
+          type="text"
+          class="userinfo"
+          placeholder="Phone Number"
+          id="phone"
+        />
+        <input
+          type="text"
+          class="userinfoaddress"
+          placeholder="Address"
+          id="address"
+        />
+        <select class="state" id="delivery"></select>
+        <button class="order" id="order">Place Order</button>
+
+        </form>
+        
+        <div class="title">Grand Total</div>
+        <div id="grand" class="amount"></div>
+        <p class="orderdetail"></p>
+      </div>
+    </div>
+  </body>
+</html>
